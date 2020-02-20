@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(241, 241, 240);
+  font-size: larger;
+}
+i {
+  font-family: fontawesome !important;
+}
+
+footer a{
+    margin: 10px;
+}
+
+.portfolio-item {
+  margin-bottom: 50px;
+}
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-img {
+  margin: 20px;
+  width: 400px;
+  opacity: 0.8;
+}
+
+.portfolio-img:hover {
+  opacity: 1;
+}

@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/default.css">
+
+    <title>Nathan Kratzmeyer</title>
+</head>
+
+<body class="has-navbar-fixed-top">
+    <!-- NAV -->
+    <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">NK</a>
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu navbar-end" id="navMenu">
+            <a class="navbar-item" href="#about">About</a>
+            <a class="navbar-item" href="#portfolio">Portfolio</a>
+            <a class="navbar-item" href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <section class="hero is-fullheight-with-navbar">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Nathan Kratzmeyer
+                </h1>
+                <h2 class="subtitle">
+                    Programmer
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h1 class="is-size-2">About Me</h1>
+            <p>
+                Hello! My name is Nathan Kratzmeyer and I'm a programmer. I have worked with various languages including
+                C#, VB.NET, Java, Javascript, and Python. Javascript and C# are my favorites. My experience is primarily
+                with developing desktop applications as a solo developer. However, I have been working hard over the
+                past year to learn web development, specifically with NodeJS.
+            </p>
+
+            <br>
+            <p>
+                I value simplicity in code and in life. I love programming because programming is problem solving,
+                building, and continuous improvement. I genuinely enjoy the iterative process of making my code better.
+                I have been coding for 10+
+                years but have yet to break into the software development industry. That is my ultimate goal for 2020.
+            </p>
+
+            <br>
+            <p>
+                I am also an enthusiastic learner. I appreciate learning applicable things and consider myself a fairly
+                quick study. My favorite sites for learning are <a href="https://youtube.com"
+                    target="_blank">YouTube</a> (of course),
+                <a href="https://udemy.com" target="_blank">Udemy</a>, and <a href="https://freecodecamp.org"
+                    target="_blank">FreeCodeCamp</a>. I believe
+                that lifelong learning and self-improvement is something that we should all strive for. I also enjoy
+                sharing my knowledge
+                with others. I have written a few posts for <a href="https://dev.to" target="_blank">dev.to</a> which
+                you can find
+                <a href="https://dev.to/nkratzmeyer" target="_blank">
+                    here.
+                </a>
+            </p>
+
+            <br>
+            <p>
+                I also enjoy creating music, light gaming, outdoor activities, and hanging out with great people. Feel
+                free to contact me at <a href="mailto:nathan@nathank.dev">nathan@nathank.dev</a>. I would love to hear
+                from you. :)
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section" id="portfolio">
+        <div class="container">
+            <h1 class="is-size-2">Portfolio </h1>
+
+            <!-- Check Printer App -->
+            <div class="portfolio-item">
+                <h1 class="is-size-4 has-text-weight-bold">Temp Check Printer</h3>
+                    <p>
+                        This project was the first programming project I undertook for the bank. This is a temporary
+                        check printing application and was created to replace a single-user legacy third-party
+                        application. It is a classic Windows application written in VB.NET using WinForms.
+                    </p>
+                    <div class="image-list">
+                        <img class="portfolio-img" src="./images/CP-1.png" alt="" srcset="">
+                        <img class="portfolio-img" src="./images/CP-2.png" alt="" srcset="">
+                    </div>
+            </div>
+
+            <!-- CIM1 -->
+            <div class="portfolio-item">
+
+                <h1 class="is-size-4 has-text-weight-bold">Computer Information Manager</h1>
+
+                <p>
+                    I created this side project as a means to have easy access to information about
+                    domain-joined
+                    computers at my job. It is a desktop application created using C# with Entity Framework for
+                    database
+                    access. It is architected as an MVVM app using the MVVMLight framework. I used a third-party
+                    framework to style the application.
+                </p>
+                <div class="image-list">
+                    <img class="portfolio-img" src="./images/Cim1-1.png" alt="" srcset="">
+                    <img class="portfolio-img" src="./images/Cim1-2.png" alt="" srcset="">
+                    <img class="portfolio-img" src="./images/cim1-3.png" alt="" srcset="">
+                </div>
+            </div>
+
+            <!-- CIM2 -->
+            <div class="portfolio-item">
+                <h1 class="is-size-4 has-text-weight-bold">Computer Information Manager 2</h3>
+                    <p>
+                        This side project is a re-implementation of the Computer Information Manager project in
+                        Javascript. I wrote it primarily to learn the ElectronJS framework. I styled the application
+                        using CSS with no frameworks.
+                    </p>
+
+                    <div class="image-list">
+                        <img class="portfolio-img" src="./images/CIM2-1.png" alt="" srcset="">
+                        <img class="portfolio-img" src="./images/CIM2-2.png" alt="" srcset="">
+                    </div>
+
+            </div>
+
+            <!-- TMS Manager -->
+            <div class="portfolio-item">
+                <h1 class="is-size-4 has-text-weight-bold">TMS Customer Manager</h3>
+                    <p>
+                        This project came about because I saw an oportunity to help with the efficiency of my employer's
+                        TMS (Treasury Management Services) team. They needed a way to efficiently handle information
+                        about TMS customers and to generate contract documents based on that information. This is a WPF
+                        desktop application written in C# using Entity Framework for database access.
+                    </p>
+                    <div class="image-list">
+                        <img class="portfolio-img" src="./images/tms-1.png" alt="" srcset="">
+                        <img class="portfolio-img" src="./images/tms-2.png" alt="" srcset="">
+                        <img class="portfolio-img" src="./images/tms-3.png" alt="" srcset="">
+                    </div>
+            </div>
+
+            <!-- Inventory Manager -->
+            <div class="portfolio-item">
+                <h1 class="is-size-4 has-text-weight-bold">Inventory Manager</h3>
+                    <p>
+                        This project was the result of needing a simple inventory managment system for our IT assets. It
+                        is a WPF desktop app written in C# and uses Entity Framework as the ORM. I used a third-party
+                        framework to style the application with a "Metro" style.
+                    </p>
+                    <div class="image-list">
+
+                        <img class="portfolio-img" src="./images/INV-1.png" alt="" srcset="">
+                        <img class="portfolio-img" src="./images/INV-2.png" alt="" srcset="">
+                        <img class="portfolio-img" src="./images/INV-3.png" alt="" srcset="">
+                    </div>
+            </div>
+
+            <!-- Dashboard -->
+            <div class="portfolio-item">
+                <h1 class="is-size-4 has-text-weight-bold">IT Dashboard</h3>
+                    <p>
+                        I created this intranet site to display various reports and information pertaining to IT. It
+                        uses POSHServer as the webserver which gave me the ability to use Powershell to generate HTML
+                        pages. I had various back-end PowerShell scripts creating reports daily and pushing them to a
+                        reports directory to be displayed on the site. I used Bootstrap to provide consistent visuals.
+                    </p>
+                    <div class="image-list">
+
+                        <img class="portfolio-img" src="./images/dash-1.png" alt="" srcset="">
+                        <img class="portfolio-img" src="./images/dash-2.png" alt="" srcset="">
+                        <img class="portfolio-img" src="./images/dash-3.png" alt="" srcset="">
+                    </div>
+            </div>
+
+
+            <!-- Loan Intro Manager -->
+            <div class="portfolio-item">
+                <h1 class="is-size-4 has-text-weight-bold">Loan Intro Manager</h3>
+                    <p>
+                        This project was done at the request of our Loan Operations department at the bank where I work.
+                        They wanted an application to ease the onboarding process for new loans, including creating loan
+                        documents, keeping documents for the loan process all together, and designation of loan
+                        approvals. The application is a WPF desktop application written in C# and using Entity Framework
+                        as the ORM. The application was styled using a third-party library.
+                    </p>
+                    <div class="image-list">
+                        <img class="portfolio-img" src="./images/LIM-1.png" alt="" srcset="">
+                        <img class="portfolio-img" src="./images/LIM-2.png" alt="" srcset="">
+                        <img class="portfolio-img" src="./images/LIM-3.png" alt="" srcset="">
+                        <img class="portfolio-img" src="./images/LIM-4.png" alt="" srcset="">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Site Footer -->
+    <footer class="footer" id="contact">
+        <div class="has-text-centered">
+
+            <a class="has-text-black" href="https://twitter.com/lostboy_k" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+            <a class="has-text-black" href="https://www.linkedin.com/in/nathan-kratzmeyer-04709572/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+
+
+            <a class="has-text-black" href="https://github.com/nkratzmeyer" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+
+            <a class="has-text-black" href="https://www.freecodecamp.org/nkratzmeyer" target="_blank"> <i
+                    class="fab fa-free-code-camp"></i>
+            </a>
+
+        </div>
+        <br>
+
+        <div class="content has-text-centered">
+            <p>Created By <a href="mailto:nathan@nathank.dev">Nathan Kratzmeyer</a></p>
+            <h5>&copy; 2020. All rights reserved.</h5>
+        </div>
+
+    </footer>
+
+    <script>
+        // From Bulma docs - Toggle hamburger menu
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
+</body>
+
+</html>
