@@ -22,10 +22,20 @@ footer a{
 
 .portfolio-img {
   margin: 20px;
-  width: 400px;
+  flex: 0 1 35%;
   opacity: 0.8;
+}
+
+img {
+  max-height: 300px;
 }
 
 .portfolio-img:hover {
   opacity: 1;
+}
+
+@media only screen and (max-width: 800px){
+  .image-list{
+    flex-direction: column;
+  }
 }
