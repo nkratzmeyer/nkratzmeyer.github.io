@@ -1,13 +1,28 @@
 body {
-  background-color: rgb(241, 241, 240);
+  /* background-color: rgb(241, 241, 240); */
+  background-color: rgb(174, 172, 180);
   font-size: larger;
 }
+
 i {
   font-family: fontawesome !important;
 }
 
-footer a{
-    margin: 10px;
+footer a {
+  margin: 10px;
+}
+
+#about {
+  background-color: rgb(241, 241, 240);
+  border-bottom: 2px dotted lightgray;
+}
+
+#portfolio{
+  background-color: rgb(236, 236, 236);
+}
+
+footer{
+  background-color: rgb(241, 241, 240);
 }
 
 .portfolio-item {
@@ -27,6 +42,8 @@ footer a{
   margin: 10px;
   flex: 0 1 35%;
   opacity: 0.8;
+  animation-name: fade-in;
+  animation-duration: 1s;
 }
 
 img {
@@ -37,8 +54,17 @@ img {
   opacity: 1;
 }
 
-@media only screen and (max-width: 800px){
-  .image-list{
+@media only screen and (max-width: 800px) {
+  .image-list {
     flex-direction: column;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
   }
 }
