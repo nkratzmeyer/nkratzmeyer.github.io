@@ -11,7 +11,7 @@ footer a{
 }
 
 .portfolio-item {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .image-list {
@@ -21,13 +21,16 @@ footer a{
 }
 
 .portfolio-img {
-  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
   flex: 0 1 35%;
   opacity: 0.8;
 }
 
 img {
-  max-height: 300px;
+  max-height: 350px;
 }
 
 .portfolio-img:hover {
