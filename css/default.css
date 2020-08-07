@@ -35,6 +35,10 @@ footer{
   justify-content: space-around;
 }
 
+img {
+  max-height: 275px;
+}
+
 .portfolio-img {
   display: flex;
   justify-content: center;
@@ -42,29 +46,16 @@ footer{
   margin: 10px;
   flex: 0 1 35%;
   opacity: 0.8;
-  animation-name: fade-in;
-  animation-duration: 1s;
-}
-
-img {
-  max-height: 350px;
+  transition: opacity 500ms, transform 500ms;
 }
 
 .portfolio-img:hover {
   opacity: 1;
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 800px) {
   .image-list {
     flex-direction: column;
-  }
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 0.8;
   }
 }
