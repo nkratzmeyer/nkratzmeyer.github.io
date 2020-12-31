@@ -1,7 +1,17 @@
 body {
   /* background-color: rgb(241, 241, 240); */
-  background-color: rgb(174, 172, 180);
+  /* background-color: rgb(174, 172, 180); */
+  background-color: #17344c;
   font-size: larger;
+}
+
+.navbar {
+  background-color: #aec8e4;
+}
+
+.title,
+.subtitle {
+  color: white;
 }
 
 i {
@@ -10,19 +20,24 @@ i {
 
 footer a {
   margin: 10px;
+  color: #aec8e4;
 }
 
 #about {
-  background-color: rgb(241, 241, 240);
+  /* background-color: rgb(241, 241, 240); */
+  background-color: whitesmoke;
   border-bottom: 2px dotted lightgray;
 }
 
-#portfolio{
-  background-color: rgb(236, 236, 236);
+#portfolio {
+  /* background-color: rgb(236, 236, 236); */
+  background-color: #e3dec7;
 }
 
-footer{
-  background-color: rgb(241, 241, 240);
+.footer {
+  /* background-color: rgb(241, 241, 240); */
+  background-color: #76847e;
+  color: white;
 }
 
 .portfolio-item {
